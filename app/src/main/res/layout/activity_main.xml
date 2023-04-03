@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/phoneDraw"
+        android:layout_height="351dp"
+        android:src="@drawable/drawingphonepng">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="163dp"
+        android:text="Shake the phone to detect to shake event"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="swap"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Button" />
+</LinearLayout>
